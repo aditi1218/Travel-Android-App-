@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hp.travel.Main4Activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:id="@+id/act4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="PLACES"
+         android:textSize="25dp"
+         android:layout_marginLeft="100dp"
+         android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botanical Garden"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp" />
+    <Button
+        android:id="@+id/zoo"
+        android:onClick="p"
+        android:layout_width="180dp"
+        android:layout_height="135dp"
+        android:background="@drawable/zoo"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="80dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patna Museum"
+        android:textSize="20dp"
+        android:layout_marginLeft="110dp" />
+        <Button
+            android:id="@+id/pmuse"
+            android:onClick="q"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/patnamuse"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GolGhar"
+        android:textSize="20dp"
+        android:layout_marginLeft="140dp" />
+        <Button
+            android:id="@+id/gghar"
+            android:onClick="r"
+            android:layout_width="180dp"
+            android:layout_height="135dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/golghrr" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water Park"
+        android:textSize="20dp"
+        android:layout_marginLeft="130dp" />
+        <Button
+            android:id="@+id/wpark"
+            android:onClick="s"
+            android:layout_width="180dp"
+            android:layout_height="135dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/funtasiawaterpark" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buddha Smirti Park"
+        android:textSize="20dp"
+        android:layout_marginLeft="90dp" />
+        <Button
+            android:id="@+id/bpark"
+            android:onClick="t"
+            android:layout_width="180dp"
+            android:layout_height="135dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/buddhasmritipark" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Science Center"
+        android:textSize="20dp"
+        android:layout_marginLeft="110dp" />
+        <Button
+            android:id="@+id/scenter"
+            android:onClick="u"
+            android:layout_width="180dp"
+            android:layout_height="135dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/scenter" />
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.travel.Main2Activity">
+
+<LinearLayout
+    android:id="@+id/act2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    >
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="MALLS"
+         android:textSize="25dp"
+         android:layout_marginLeft="120dp"
+         android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P nd M MALL"
+        android:textSize="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="0dp"/>
+    <Button
+        android:id="@+id/pm"
+        android:onClick="a"
+        android:layout_width="180dp"
+        android:layout_height="135dp"
+        android:background="@drawable/pmmall"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patna Central Mall"
+        android:textSize="20dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="0dp"/>
+    <Button
+        android:id="@+id/pcm"
+        android:onClick="b"
+        android:layout_width="180dp"
+        android:layout_height="135dp"
+        android:background="@drawable/pcm"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vasundhara Mall/Pantaloons"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="0dp"/>
+    <Button
+        android:id="@+id/pantaloon"
+        android:onClick="c"
+        android:layout_width="180dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/pantaloon"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orchid Mall"
+        android:textSize="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="0dp"/>
+    <Button
+        android:id="@+id/orchid"
+        android:layout_width="180dp"
+        android:onClick="d"
+        android:layout_height="135dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/orchidmall"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reliance Trends"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="0dp"/>
+        <Button
+            android:id="@+id/rtrend"
+            android:layout_width="180dp"
+            android:onClick="e"
+            android:layout_height="135dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/rtends"
+            android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gravity Mall"
+        android:textSize="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="0dp"/>
+        <Button
+            android:id="@+id/gmall"
+            android:layout_width="180dp"
+            android:onClick="f"
+            android:layout_height="135dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/gravmall"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChunniLal MegaMart"
+        android:textSize="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="0dp"/>
+        <Button
+            android:id="@+id/cmall"
+            android:layout_width="180dp"
+            android:onClick="g"
+            android:layout_height="135dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/cmall1"
+            />
+
+
+
+</LinearLayout>
+</ScrollView>

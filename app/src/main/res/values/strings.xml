@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Travel</string>
+    <string name="p">2. PM Mall</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_tabbed">Tabbed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sidebar">Sidebar</string>
+    <string name="title_activity_nav__drawer">nav_Drawer</string>
+</resources>
